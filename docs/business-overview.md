@@ -68,14 +68,8 @@ Transactly will prioritise:
 - **Traceability:** Every transaction must have an identifiable history.
 - **Reliability:** Processing failures must not compromise financial integrity.
 
-### 7. Initial Business Scenario
 
-A customer transfers KSh 5,000 from Account A to Account B.
 
-A successful transfer must debit Account A, credit Account B, record the transaction and provide confirmation to the customer.
-
-The system must ensure that the transfer is processed only once and that failures do not result in incorrect financial records.
-
-### 8. Future Enhancements
+### 7. Future Enhancements
 
 Future iterations may introduce transaction reversals, double-entry accounting, reconciliation, exception management, external payment integrations and AI-powered transaction monitoring.
